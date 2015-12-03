@@ -1,0 +1,17 @@
+// ==UserScript==
+// @name         open links in tabs
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  open links in tabs
+// @author       Shameem Gafoor
+// @match        https://news.ycombinator.com/
+// @grant        none
+// @require       http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
+// ==/UserScript==
+/* jshint -W097 */
+'use strict';
+
+
+
+
+$('tr.athing td.title a').attr("target","_blank");
