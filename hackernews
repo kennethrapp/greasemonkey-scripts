@@ -11,7 +11,4 @@
 /* jshint -W097 */
 'use strict';
 
-
-
-
 $('tr.athing td.title a').attr("target","_blank");
