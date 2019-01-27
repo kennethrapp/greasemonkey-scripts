@@ -12,3 +12,5 @@
 'use strict';
 
 $('tr.athing td.title a').attr("target","_blank");
+$('.title').attr("style", "font-size: 14pt");
+
