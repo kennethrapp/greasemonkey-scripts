@@ -12,7 +12,7 @@
 'use strict';
 
 $('tr.athing td.title a').attr("target","_blank");
-$('.title').attr("style", "font-size: 14pt");
+$('.title').attr("style", "font-size: 12pt");
 
 var pts = [];
 $('td.subtext span.score').each(function() { 
